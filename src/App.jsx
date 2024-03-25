@@ -11,6 +11,7 @@ function App() {
   return (
    <div>
     <Header/>
+    <div className='galeria'>
     <Image
     img= './batman.jfif'/>
       <Image
@@ -19,6 +20,7 @@ function App() {
     img= './57f13ec1b6e2d5712d03fec842e08356.jpg'/>
      <Image
     img= './blabla.avif'/>
+    </div>
     <Sobre/>
    </div>
   )

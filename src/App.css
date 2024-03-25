@@ -6,11 +6,16 @@
 }
 
   .imagens-galeria{
-    width: 10px;
-    height: 10px;
-    align-content: space-between;
-  }
+    width: 200px;
+    height: 300px;
+    overflow: hidden;
 
+  }
+.galeria{
+  display: flex;
+  align-content: space-between;
+  flex-direction: row;
+}
 .header{
   color: aqua;
 }
